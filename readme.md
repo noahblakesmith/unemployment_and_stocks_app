@@ -10,13 +10,13 @@ Create and activate a virtual environment:
 conda create -n unemployment-env python=3.8
 
 conda activate unemployment-env
-
-Navigate to directory where files are located.
 ```
 
 Install package dependencies:
 
 ```sh
+Navigate to the directory where files are located.
+
 pip install -r requirements.txt
 ```
 
