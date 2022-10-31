@@ -34,18 +34,12 @@ ALPHAVANTAGE_API_KEY = "_________"
 
 ## Usage
 
-Run an example script:
+Run the unemployment report:
 
 ```sh
 python unemployment_solution_json.py
 
 python unemployment_solution_csv.py
-```
-
-Run the unemployment report:
-
-```sh
-python app/unemployment.py
 
 # or pass env var from command line:
 
