@@ -44,3 +44,11 @@ this_year_df = df[df["timestamp"].str.contains("2022-")]
 print("-------------------------")
 print("AVG UNEMPLOYMENT THIS YEAR:", f"{this_year_df['value'].mean()}%")
 print("NO MONTHS:", len(this_year_df))
+
+# Challenge C
+# Plot a line chart of unemployment rates over time.
+
+from plotly.express import line
+
+fig = line(x=df["timestamp"], y=df["value"], title="United States Unemployment Rate over time", labels= {"x": "Month", "y": "Unemployment Rate"})
+fig.show()
