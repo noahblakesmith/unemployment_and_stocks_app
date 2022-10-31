@@ -35,3 +35,12 @@ print("-------------------------")
 print("LATEST UNEMPLOYMENT RATE:")
 first_row = df.iloc[0]
 print(f"{first_row['value']}%", "as of", first_row["timestamp"])
+
+# Challenge B
+# What is the average unemployment rate for all months during this calendar year? How many months does this cover?
+
+this_year_df = df[df["timestamp"].str.contains("2022-")]
+
+print("-------------------------")
+print("AVG UNEMPLOYMENT THIS YEAR:", f"{this_year_df['value'].mean()}%")
+print("NO MONTHS:", len(this_year_df))
