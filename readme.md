@@ -30,7 +30,7 @@ Then create a local ".env" file and provide the key like this:
 ```sh
 # this is the ".env" file...
 
-ALPHAVANTAGE_API_KEY = "_________"
+ALPHAVANTAGE_API_KEY="_________"
 ```
 
 
@@ -45,7 +45,7 @@ python unemployment_solution_csv.py
 
 # or pass env var from command line:
 
-ALPHAVANTAGE_API_KEY = "______" python unemployment_solution_json.py
+ALPHAVANTAGE_API_KEY="______" python unemployment_solution_json.py
 
-ALPHAVANTAGE_API_KEY = "______" python unemployment_solution_csv.py
+ALPHAVANTAGE_API_KEY="______" python unemployment_solution_csv.py
 ```
