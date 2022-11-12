@@ -39,11 +39,14 @@ ALPHAVANTAGE_API_KEY="_________"
 Run the unemployment report:
 
 ```sh
-python -m app.unemployment_solution_json.py
+python -m app.unemployment
 
-python -m app.unemployment_solution_csv.py
+python -m app.stocks
 
 ## Testing
 
-```sh pytest
+```sh
+pytest
+
+pytest -v # the verbose option shows you all the test names
 ```
