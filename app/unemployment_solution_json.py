@@ -1,10 +1,7 @@
 import json
 from pprint import pprint
 import requests
-
-from .alpha import API_KEY
-
-
+from app.alpha import API_KEY
 
 request_url = f"https://www.alphavantage.co/query?function=UNEMPLOYMENT&apikey={API_KEY}"
 
