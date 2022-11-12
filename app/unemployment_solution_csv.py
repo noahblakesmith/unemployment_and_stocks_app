@@ -1,6 +1,7 @@
 from pprint import pprint
 from pandas import read_csv
 from plotly.express import line
+from app.alpha import API_KEY
 
 request_url = f"https://www.alphavantage.co/query?function=UNEMPLOYMENT&apikey={API_KEY}&datatype=csv"
 

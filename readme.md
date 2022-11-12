@@ -39,9 +39,9 @@ ALPHAVANTAGE_API_KEY="_________"
 Run the unemployment report:
 
 ```sh
-python unemployment_solution_json.py
+python -m app.unemployment_solution_json.py
 
-python unemployment_solution_csv.py
+python -m app.unemployment_solution_csv.py
 
 # or pass env var from command line:
 
