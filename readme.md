@@ -43,9 +43,7 @@ python -m app.unemployment_solution_json.py
 
 python -m app.unemployment_solution_csv.py
 
-# or pass env var from command line:
+## Testing
 
-ALPHAVANTAGE_API_KEY="______" python unemployment_solution_json.py
-
-ALPHAVANTAGE_API_KEY="______" python unemployment_solution_csv.py
+```sh pytest
 ```
