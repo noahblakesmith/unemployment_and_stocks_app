@@ -1,8 +1,6 @@
-# My Unemployment Report
-
+# Unemployment and Stocks App
 
 ## Setup
-
 
 Create and activate a virtual environment:
 
@@ -22,7 +20,6 @@ pip install -r requirements.txt
 
 ## Configuration
 
-
 [Obtain an API Key](https://www.alphavantage.co/support/#api-key) from AlphaVantage.
 
 Then create a local ".env" file and provide the key like this:
@@ -33,7 +30,6 @@ Then create a local ".env" file and provide the key like this:
 ALPHAVANTAGE_API_KEY="_________"
 ```
 
-
 ## Usage
 
 Run the unemployment report:
@@ -42,6 +38,7 @@ Run the unemployment report:
 python -m app.unemployment
 
 python -m app.stocks
+```
 
 ## Testing
 
@@ -49,6 +46,7 @@ python -m app.stocks
 pytest
 
 pytest -v # the verbose option shows you all the test names
+```
 
 ## Web App
 
